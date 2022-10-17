@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#101626 ;
+    /* border-radius: 15px; deixa a borda arredondada */
+    box-shadow: 5px 5px 15px #19203580;
+    color: #D9D7D7;
+    width: 600px;
+    padding:15px;
+    margin: auto;
+}
+h1#principal{
+    font-size: 1.5em;
+}
+h1{
+    font-size:1em;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fa1e4e;
+}
+a:hover{
+    color:#D9D7D7;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color:#101626 ;
+            /* border-radius: 15px; deixa a borda arredondada */
+            box-shadow: 5px 5px 15px #19203580;
+            color: #D9D7D7;
+            width: 600px;
+            padding:15px;
+            margin: auto;
+        }
+        div#teste:hover{
+            color:#fa1e4e ;       
+        }
+        div >p{
+            display:none;
+        }
+       
+        div:hover >p{
+            display: block;
+        }
+
+       /* Menu */
+        
+        div >nav{
+            display:none;
+        }
+        div:hover >nav{
+            text-align:left;
+            height: 130px;
+            width: 130px;
+            display:block;
+        }
+
+        a:link{
+            color: #fa1e4e;
+            text-decoration:none;    
+        }
+        a:hover{  
+            text-decoration: underline;
+            color:#D9D7D7
+        }
+        ul{
+            list-style:none;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <img src="imagens/menu-aberto.png" alt="menu">
+        <nav id="menu">
+            <ul>
+                <a href="../../exercicios/ex001/index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="#">
+                    <li>CARRINHO</li>
+                </a>
+                <a href="#">
+                    <li>FAVORITOS</li>
+                </a>
+                <a href="#">
+                    <li>LOGIN</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    
+    <br>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="teste">
+        Olá, passe o mouse aqui &#x1F60F
+        <p>&#x2763 TE AMO MOZÃO &#x2763</p>
+    </div>
+    <p>Isso é um protótipo de um menu que aparecerá se posicionar o mouse em cima.</p>
+    <br>
+<a href="../../Modulo 1/Exercicios/ex001/index.html"><img width="40" src="../../Modulo 1/Exercicios/DesafioVideo/mídia/return.png" alt="botão de retorno"></a>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color:#101626 ;
+            /* border-radius: 15px; */
+            box-shadow: 5px 5px 15px #00000071;
+            color: #D9D7D7;
+            width: 600px;
+            margin: auto;
+            padding-top: 10px;
+        }
+        header{
+            background-color: #fa1e4e;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        nav >a{
+            text-decoration: none;
+            color: #101626;
+            font-weight: bold;
+            margin-right:15px;
+            
+
+        }
+        nav >a:hover{
+            color: #D9D7D7;
+        }
+       
+        main{
+            background-color: #D9D7D7;
+            color: #101626;
+            padding: 10px;
+        }
+        aside{
+            text-align: right;
+            color: #fa1e4e;
+        }
+        footer{
+            background-color: #fa1e4e;
+            color: #101626;
+            text-align: center;
+            padding: 20px;
+        }
+        footer >p{
+            margin: 0px;
+        }
+        section#assuntos{
+            color: #fa1e4e;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* div#bola{
+            background-color: #fa1e4e;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            
+        } */
+        #bola{
+            background-color:#fa1e4e;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 1px 3px 40px 1px #00000041;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NEWS</h1>
+        <nav>
+            <a href="#">ESPORTES</a>
+            <a href="#">CINEMA</a>
+            <a href="#">ARTES</a>
+            <a href="#">ECONOMIA</a>
+            <a href="#">POLITICA</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes>>Cinema>>Economia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticía sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus vitae a cum fuga saepe facere nemo assumenda at odio? Hic veritatis sunt voluptate, facilis molestiae cum optio modi incidunt. Pariatur?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Quem ganhou o Oscar?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi molestias natus sequi accusamus quia, nihil soluta totam veritatis ipsam deserunt vitae iste animi, non unde blanditiis quos? Aliquid, temporibus voluptate.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil sequi sed dolore fugiat numquam maiores necessitatibus laudantium, quibusdam ad cum quisquam in! Nam dicta deleniti itaque ducimus unde quae magni!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <div id="bola"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Kimberlly</p>
+    </footer>
+</body>
+</html>

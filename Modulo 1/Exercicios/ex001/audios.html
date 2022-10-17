@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="Mídia/Audio/guanacast-33.mp3" controls>
+    </audio>
+    <!-- o parâmetro autoplay depois de controls faz com que o audio seja reproduzido assim que a página carrega -->
+    <audio preload="metadata" controls>
+        <source src="Mídia/Audio/guanacast-33.mp3" type="audio/mpeg">
+        <source src="Mídia/Audio/guanacast-33.ogg" type="audio/ogg">
+        <source src="Mídia/Audio/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="Mídia/Audio/guanacast-33.mp3">Clique aqui</a> para baixar o MP3.</p>
+    </audio>
+    <!-- o navegador vai tentar carregar os arquivos na ordem, primeiro mp3,ogg,wav caso nenhum dê certo, ele mostra a mensagem de erro e o link para fazer o download do arquivo. O preload define se quer carregar todo o conteúdo antes de reproduzir ou não. (auto/metadata/none) recomendado metadata -->
+    <br>
+    <a href="index.html"><img width="40" src="../DesafioVideo/mídia/return.png" alt="botão de retorno"></a>
+</body>
+</html>
