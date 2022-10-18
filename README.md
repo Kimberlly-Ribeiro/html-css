@@ -3,4 +3,5 @@
  <br>
 <a href="https://kimberlly-ribeiro.github.io/projeto-android/">Projeto Android</a>
 <br>
-<img src="../../../projeto-android/midia/imagens/QR-CODE.png" alt="QR CODE para o projeto android">
+<a href="https://kimberlly-ribeiro.github.io/DesafioPessoal-001/"> Desafio Pessoal 001 - Card de cancelamento</a>
+<br>
